@@ -23,7 +23,7 @@ No need to manually enter your username and password each time you open Chrome â
 Download the folder or clone it:
 
 ```bash
-git clone https://your-repo-url.git
+git clone https://github.com/PatelBinali/sonicwall-login-extension.git
 ```
 
 Or manually unzip the files into a local directory.
