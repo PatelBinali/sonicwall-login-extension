@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "One-Click Auto Login",
+  "version": "1.1",
+  "description": "Fills and logs in automatically even from a new tab",
+  "permissions": ["scripting", "tabs", "storage"],
+  "host_permissions": ["https://192.168.11.254:4333/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  }
+}
