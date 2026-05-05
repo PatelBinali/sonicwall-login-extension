@@ -1,6 +1,6 @@
 # sonicwall-login-extension# 🔐 One-Click SonicWall Auto Login Extension
 
-This Chrome Extension allows you to **automatically log in** to your **SonicWall network login page** (`https://192.168.11.254:4333/...`) with saved credentials.
+This Chrome Extension allows you to **automatically log in** to your **SonicWall network login page** (`https://firewall.7span.work/...`) with saved credentials.
 
 No need to manually enter your username and password each time you open Chrome — the extension does it all for you!
 
@@ -88,7 +88,7 @@ Or manually unzip the files into a local directory.
 ## 🔐 Security Note
 
 * Credentials are stored **only locally** using `chrome.storage.local`.
-* This extension **only works** on your local SonicWall login URL (`192.168.11.254`).
+* This extension **only works** on your local SonicWall login URL (`https://firewall.7span.work`).
 * You can clear or update credentials using the popup anytime.
 
 ---
