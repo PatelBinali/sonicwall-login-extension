@@ -61,6 +61,13 @@ Or manually unzip the files into a local directory.
 * If credentials are saved, it **logs in automatically**
 * If not, prompts for them
 
+## 🌍 Customizing for Your Office/Network
+
+If you want to use this extension for your own personal or office SonicWall network, you simply need to update the URL in two files before loading the extension:
+
+1. **`manifest.json`**: Update the URL inside the `"host_permissions"` array to match your network's login URL base.
+2. **`background.js`**: Update the `LOGIN_URL` constant at the very top of the file to point to your specific SonicWall login path.
+
 ---
 
 ## 📋 Files Overview
