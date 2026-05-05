@@ -1,4 +1,4 @@
-const LOGIN_URL = "https://192.168.11.254:4333/sonicui/7/login/#/";
+const LOGIN_URL = "https://firewall.7span.work/sonicui/7/login/#/";
 
 function injectLoginOrPrompt(tabId) {
   chrome.storage.local.get(["username", "password"], (data) => {
